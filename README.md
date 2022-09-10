@@ -1,7 +1,3 @@
-===========
-QEMU README
-===========
-
 QEMU is a generic and open source machine & userspace emulator and
 virtualizer.
 
