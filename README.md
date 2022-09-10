@@ -40,6 +40,7 @@ folder in the source tree, and is built by `Sphinx
 How to install in Linux Void
 ==============================
 wget https://github.com/johna23-lab/qemu-for-void/releases/download/7.1.0/qemu-7.1.0_1.x86_64.xbps
+
 wget https://github.com/johna23-lab/qemu-for-void/releases/download/7.1.0/qemu-ga-7.1.0_1.x86_64.xbps
 
 xbps-rindex-a *.xbps
