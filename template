@@ -1,7 +1,7 @@
 # Template file for 'qemu'
 # This package should be updated together with qemu-user-static
 pkgname=qemu
-version=8.0.2
+version=8.1.0
 revision=1
 build_style=configure
 configure_args="--prefix=/usr --sysconfdir=/etc --libexecdir=/usr/libexec --localstatedir=/var
@@ -28,7 +28,7 @@ maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://www.qemu.org"
 distfiles="https://wiki.qemu.org/download/qemu-${version}.tar.bz2"
-checksum=b59281923d60d358a7d7d3bde46ba43c0810d34d26608fcdaf6bf4c42492b694
+checksum=53a2388f4f67d03e94ed7fe192d8828e64c535fadf7bf9dd0bc1d2091eedf624
 ignore_elf_dirs="/usr/share/qemu"
 nostrip_files="hppa-firmware.img openbios-ppc openbios-sparc32 openbios-sparc64
  palcode-clipper s390-ccw.img s390-netboot.img u-boot.e500 opensbi-riscv32-generic-fw_dynamic.elf
